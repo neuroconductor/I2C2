@@ -3,48 +3,32 @@ Type: Package
 Title: Image Intraclass Correlation Coefficient
 Version: 0.2.4
 Date: 2019-01-24
-Authors@R: c(person(given = "Haochang", family = "Shou", 
-    role = c("aut","ctb","cre"), email = "hshou@pennmedicine.upenn.edu"), 
-    person(given = "Seonjoo", family = "Lee", 
-    role = c("aut","ctb")),
-    person(given = "John", family = "Muschelli", 
-    role = c("aut", "ctb")), 
-    person(given = "Ani", family = "Eloyan", 
-    role = c("ctb")),
-    person(given = "Vadim", family = "Zipunnikov", 
-    role = c("ctb")),
-    person(given = "Adina N.", family = "Crainiceanu", 
-    role = c("ctb")),
-    person(given = "Mary Beth", family = "Nebel", 
-    role = c("ctb")),
-    person(given = "Brian", family = "Caffo", 
-    role = c("ctb")),
-    person(given = "Martin A.", family = "Lindquist", 
-    role = c("ctb")),
-    person(given = "Ciprian M.", family = "Crainiceanu", 
-    role = c("ctb")))
-Description: Computes the Image Intraclass Correlation Coefficient ('I2C2'),
-    a global measure of reliability for imaging studies. The method was
-    described in "Quantifying the reliability of image replication 
-    studies: the image intraclass correlation coefficient ('I2C2')"
-    <doi:10.3758/s13415-013-0196-0>.
+Authors@R: c(person(given = "Haochang", family = "Shou", role =
+        c("aut","ctb","cre"), email = "hshou@pennmedicine.upenn.edu"),
+        person(given = "Seonjoo", family = "Lee", role =
+        c("aut","ctb")), person(given = "John", family = "Muschelli",
+        role = c("aut", "ctb")), person(given = "Ani", family =
+        "Eloyan", role = c("ctb")), person(given = "Vadim", family =
+        "Zipunnikov", role = c("ctb")), person(given = "Adina N.",
+        family = "Crainiceanu", role = c("ctb")), person(given = "Mary
+        Beth", family = "Nebel", role = c("ctb")), person(given =
+        "Brian", family = "Caffo", role = c("ctb")), person(given =
+        "Martin A.", family = "Lindquist", role = c("ctb")),
+        person(given = "Ciprian M.", family = "Crainiceanu", role =
+        c("ctb")))
+Description: Computes the Image Intraclass Correlation Coefficient
+        ('I2C2'), a global measure of reliability for imaging studies.
+        The method was described in "Quantifying the reliability of
+        image replication studies: the image intraclass correlation
+        coefficient ('I2C2')" <doi:10.3758/s13415-013-0196-0>.
 BugReports: https://github.com/muschellij2/I2C2/issues
-Depends:
-    R (>= 2.10)
-Imports:
-    parallel,
-    stats,
-    matrixStats
+Depends: R (>= 2.10)
+Imports: parallel, stats, matrixStats
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-Suggests: 
-	knitr,
-    rmarkdown,
-    beanplot,
-    testthat,
-    covr
+Suggests: knitr, rmarkdown, beanplot, testthat, covr
 VignetteBuilder: knitr
-biocViews: 
-
+biocViews:
+Repository: Neuroconductor
